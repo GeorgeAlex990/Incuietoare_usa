@@ -28,3 +28,5 @@ Conexiuni:
 |     GND     | NEGRU |
 |      5V     |  ROSU |
 |    Pin 10   |  ALB  |
+
+Librarie Keypad: https://playground.arduino.cc/Code/Keypad/
