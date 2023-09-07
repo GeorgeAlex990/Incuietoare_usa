@@ -34,10 +34,6 @@ void setup(){
   Serial.begin(9600);
   SPI.begin(); // Init SPI bus
   rfid.PCD_Init(); // Init MFRC522 
-
-  for (byte i = 0; i < 6; i++) {
-    key.keyByte[i] = 0xFF;
-  }
   
   servo.attach(A0);  
   servo.write(0);
