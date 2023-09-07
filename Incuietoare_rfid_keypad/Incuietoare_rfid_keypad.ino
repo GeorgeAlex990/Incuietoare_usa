@@ -76,7 +76,7 @@ void loop(){
         Serial.println("GRESIT");
         servo.write(0);
       }
-      if (rfid.uid.uidByte[0] == 161 || rfid.uid.uidByte[1] == 20 || rfid.uid.uidByte[2] == 152 || rfid.uid.uidByte[3] == 36) {
+      if (rfid.uid.uidByte[0] == 161 && rfid.uid.uidByte[1] == 20 && rfid.uid.uidByte[2] == 152 && rfid.uid.uidByte[3] == 36) {
         Serial.println("CORECT");
         servo.write(90);
         delay(2000);
